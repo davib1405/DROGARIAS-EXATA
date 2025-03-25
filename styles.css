@@ -17,6 +17,10 @@ body {
 .logo {
   width: 150px;
   height: 100px;
+  color: white;
+  background-color: #faf7f7;
+  padding: 10px 10px;
+  text-decoration: none;
 }
 
 .phone-button {
