@@ -6,7 +6,6 @@ body {
   background-color: #f4f4f4;
 }
 
-
 .top-bar {
   background-color: #ff6600; /* Cor laranja */
   display: flex;
@@ -38,7 +37,7 @@ body {
 }
 
 .center-image {
-  max-width: 60%;
+  max-width: 100%; /* Agora ocupa 100% da largura disponível */
   height: auto;
 }
 
@@ -47,7 +46,7 @@ body {
 }
 
 .whatsapp-button img {
-  width: 400px; /* Ajuste a largura do botão do WhatsApp */
+  width: 150px; /* Ajuste o tamanho para ser mais proporcional */
   border-radius: 5px;
 }
 
@@ -58,6 +57,7 @@ body {
   padding: 10px;
   font-size: 18px;
 }
+
 /* Estilo do rodapé */
 footer {
   background-color: #333;
@@ -84,18 +84,18 @@ footer {
   }
 
   .whatsapp-button img {
-      width: 80px; /* Menor tamanho para celular */
+      width: 120px; /* Menor tamanho para celular */
   }
 }
 
 /* Estilos para tablets e dispositivos de tamanho médio */
 @media (max-width: 1024px) {
   .whatsapp-button img {
-      width: 90px; /* Ajuste médio para tablets */
+      width: 140px; /* Ajuste médio para tablets */
   }
 
   .operating-hours {
-      font-size: 15px;
+      font-size: 16px;
   }
 }
 
