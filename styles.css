@@ -15,7 +15,8 @@ body {
 }
 
 .logo {
-  height: 50px;
+  width: 150px;
+  height: 100px;
 }
 
 .phone-button {
@@ -37,7 +38,7 @@ body {
 }
 
 .center-image {
-  max-width: 100%; /* Agora ocupa 100% da largura disponível */
+  max-width: 60%; /* Agora ocupa 100% da largura disponível */
   height: auto;
 }
 
@@ -46,7 +47,7 @@ body {
 }
 
 .whatsapp-button img {
-  width: 150px; /* Ajuste o tamanho para ser mais proporcional */
+  width: 400px; /* Ajuste o tamanho para ser mais proporcional */
   border-radius: 5px;
 }
 
