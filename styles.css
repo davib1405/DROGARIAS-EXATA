@@ -70,6 +70,23 @@ footer {
   text-align: center;
   padding: 10px;
 }
+ .map{
+   width: 800px;
+  height: 500px;
+  border-radius: 15px;
+  border: 1px solid #4e4c4c;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* centraliza */
+  text-align: center;
+
+}
+.titulo{
+  text-align: center;
+  color: rgb(12, 12, 12);
+  padding: 10px;
+  font-size: 18px;
+}
 
 /* Estilos para dispositivos móveis */
 @media (max-width: 600px) {
@@ -114,4 +131,9 @@ footer {
       font-size: 18px;
       padding: 12px 25px;
   }
+ 
 }
+
+
+
+
